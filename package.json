@@ -1,0 +1,28 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "Example NodeJS",
+  "main": "chat-frontend.js",
+  "dependencies": {
+    "finalhandler": "^1.1.1",
+    "serve-static": "^1.13.2",
+    "websocket": "^1.0.28"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djfoley01/node-chatapp.git"
+  },
+  "publishConfig": {
+    "registry": "http://nexus.jx.kube.foley.core/repository/nodejs/"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djfoley01/node-chatapp/issues"
+  },
+  "homepage": "https://github.com/djfoley01/node-chatapp#readme"
+}
